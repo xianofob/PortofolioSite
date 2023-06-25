@@ -64,7 +64,7 @@ transition: .3s;
 
 .home {
     height: 100vh;
-    background: url('Riven.jfif');
+   /* background: url('noice img.png');*/
     background-size: cover;
     background-position: center;
     display: flex;
@@ -290,23 +290,6 @@ width: 100%;
 
 }
 
-.home-imgHover::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 120%;
-    height: 100%;
-    background: #081b29;
-    animation: showRight 1s ease forwards;
-    animation-delay: 3s;
-    z-index: 100;
-}
-
-.home-imgHover:hover {
-    background: #081b29;
-    opacity: 0.8;
-}
 
 /*keyframes animation*/
 @keyframes showRight {
